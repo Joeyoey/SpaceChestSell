@@ -1,0 +1,34 @@
+use-essentials-worth-yml: false
+shopguiplus: false
+breakdown: true
+prices:
+  stone: 1.0
+layout:
+  - '&b&l[ChestSell]'
+  - ''
+  - '&7&o(( right click ))'
+  - ''
+required: '[chestsell]'
+
+
+
+messages:
+  no-permission: 'You dont have permission to do this.'
+  chest-empty: 'The chest you are trying to sell from is empty.'
+  breakdown: '&8 » &b%item% (x%amount%) for $%price%.'
+  sale: '&3&lItems sold for &b&l$%amount%&3&l:'
+  success: '&bSuccess, you have created a Sell Sign!'
+  not-on-sign: '&cYou arent added to this sign, as such you cannot use it.'
+  wrong-arguments: '&cThose arent the correct arguments for that command.'
+  not-a-sell-sign: '&cThats not a sell sign.'
+  player-added: '&bThis player >> %player% << has been added.'
+  you-are-not-owner: '&cYou arent on this sign, as such you can add.'
+  player-removed: '&cThis player >> %player% << has been removed.'
+  header-list: '&bPlayers currently on this sign: '
+  list-format: '  &f* &b&l%player%'
+  player-hasnt-joined: '&c&l[!] &cThat player hasnt joined before.'
+  help: |-
+    &f*&b*&3* &b&lSpaceChestSell &3*&b*&f*
+    &bTo add a player to a sign type /chestsell add [ign]
+    &bTo remove a player from a sign type /chestsell remove [ign]
+    &bTo see who can access this sign!

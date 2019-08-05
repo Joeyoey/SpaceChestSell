@@ -1,0 +1,9 @@
+name: SpaceChestSell
+author: joeyoey
+version: 0.0.1
+main: com.joeyoey.spacechestsell.SpaceChestSell
+description: Space ChestSell.
+api-version: 1.14
+
+commands:
+  chestsell:
